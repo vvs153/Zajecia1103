@@ -41,5 +41,14 @@ public class Recipe {
     private String ingredients;
     interface AddRecipe {}
     interface UpdateRecipe {}
+
+    public Recipe(String name, String description, Integer duration, Integer numberOfPeople, Complexity complexity, String ingredients) {
+        this.name = name;
+        this.description = description;
+        this.duration = duration;
+        this.numberOfPeople = numberOfPeople;
+        this.complexity = complexity;
+        this.ingredients = ingredients;
+    }
 }
 
