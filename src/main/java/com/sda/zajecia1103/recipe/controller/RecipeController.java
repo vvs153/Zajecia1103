@@ -22,6 +22,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.*;
 
 //http://localhost:8080/swagger-ui/
+//http://localhost:8080/swagger-ui/index.html
 @RestController
 @RequestMapping("/recipes")
 public class RecipeController {
