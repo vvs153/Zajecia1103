@@ -17,8 +17,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
 
-@ExtendWith(SpringExtension.class)
-@DataJpaTest
+@ExtendWith(SpringExtension.class) //wstzrykiwanie zaleznosci
+@DataJpaTest //stworz testtowa baze danych h2
 public class RecipeRepositoryTest {
     @Autowired
     private RecipeRepository recipeRepository;
